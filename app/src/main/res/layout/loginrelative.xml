@@ -38,7 +38,7 @@
         android:layout_height="86dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/logoimagem"
         android:layout_width="wrap_content"
         android:layout_height="220dp"
         android:layout_alignParentTop="true"
@@ -48,7 +48,7 @@
         app:srcCompat="@drawable/background_logo_png_15" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress3"
+        android:id="@+id/emailtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -63,7 +63,7 @@
         tools:text="E-mail" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress5"
+        android:id="@+id/senhatexto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -78,7 +78,7 @@
         tools:text="Senha" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/entrarbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
