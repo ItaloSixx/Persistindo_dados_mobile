@@ -5,6 +5,7 @@
     android:id="@+id/email"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backbotao"
     tools:context=".MainActivity">
 
     <TextView
@@ -22,10 +23,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logarbotao" />
+        app:layout_constraintTop_toBottomOf="@+id/botalogin" />
 
     <Button
-        android:id="@+id/registrarbotao4"
+        android:id="@+id/botaoregistrar"
         android:layout_width="106dp"
         android:layout_height="48dp"
         android:layout_alignParentStart="true"
@@ -40,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/logarbotao"
+        android:id="@+id/botalogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -64,18 +65,18 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/emaillogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagemlogo"
-        tools:text="Email" />
+        app:layout_constraintTop_toBottomOf="@+id/imagemlogo" />
 
     <EditText
         android:id="@+id/senhatxt"
@@ -83,10 +84,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
+        android:hint="Senha"
+        android:inputType="text|textPassword"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        tools:text="Senha" />
+        app:layout_constraintTop_toBottomOf="@+id/emaillogin" />
 </androidx.constraintlayout.widget.ConstraintLayout>
